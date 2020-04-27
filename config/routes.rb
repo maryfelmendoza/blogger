@@ -53,5 +53,9 @@ Blogger::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  resources :articles
+  root to: 'articles#index'
+  resources :articles do
+  resources :comments
+  end
+  resources :tags
 end
