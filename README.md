@@ -4,7 +4,7 @@
 
 # Blogger
 
-In this project I created a simple blog system and learn the basics of Ruby on Rails including:
+In this project we created a simple blog system and learn the basics of Ruby on Rails including:
 
 Models, Views, and Controllers (MVC)
 Data Structures & Relationships
